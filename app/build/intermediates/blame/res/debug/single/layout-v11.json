@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\AndroidDev\\Assignment1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\Haley\\.android\\build-cache\\751fc93e3ed13b84a9d0e7a76b10a90641cb867e\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "C:\\AndroidDev\\Assignment1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Haley\\.android\\build-cache\\751fc93e3ed13b84a9d0e7a76b10a90641cb867e\\output\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\AndroidDev\\Assignment1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\Haley\\.android\\build-cache\\751fc93e3ed13b84a9d0e7a76b10a90641cb867e\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\BCIT\\Term 3\\3717\\Assignments\\Assignment 1\\Comp3717Assignment1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\PC\\.android\\build-cache\\751c870a0dda715d9c38f719aab7b70f206b4ef3\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "C:\\AndroidDev\\Assignment1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Haley\\.android\\build-cache\\751fc93e3ed13b84a9d0e7a76b10a90641cb867e\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\AndroidDev\\Assignment1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\Haley\\.android\\build-cache\\751fc93e3ed13b84a9d0e7a76b10a90641cb867e\\output\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\BCIT\\Term 3\\3717\\Assignments\\Assignment 1\\Comp3717Assignment1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\PC\\.android\\build-cache\\751c870a0dda715d9c38f719aab7b70f206b4ef3\\output\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\BCIT\\Term 3\\3717\\Assignments\\Assignment 1\\Comp3717Assignment1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\PC\\.android\\build-cache\\751c870a0dda715d9c38f719aab7b70f206b4ef3\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\BCIT\\Term 3\\3717\\Assignments\\Assignment 1\\Comp3717Assignment1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\PC\\.android\\build-cache\\751c870a0dda715d9c38f719aab7b70f206b4ef3\\output\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\AndroidDev\\Assignment1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Haley\\.android\\build-cache\\751fc93e3ed13b84a9d0e7a76b10a90641cb867e\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\BCIT\\Term 3\\3717\\Assignments\\Assignment 1\\Comp3717Assignment1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\PC\\.android\\build-cache\\751c870a0dda715d9c38f719aab7b70f206b4ef3\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\Desktop\\BCIT\\Term 3\\3717\\Assignments\\Assignment 1\\Comp3717Assignment1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\PC\\.android\\build-cache\\751c870a0dda715d9c38f719aab7b70f206b4ef3\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    }
+]
