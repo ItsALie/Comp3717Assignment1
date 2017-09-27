@@ -22,13 +22,19 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 EditText editView = (EditText) findViewById(R.id.number);
-                float num = parseFloat(editView.getText().toString());
-                Spinner spin = (Spinner) findViewById(R.id.spinner);
-                String item = spin.getSelectedItem().toString();
-                Intent intent =  new Intent(MainActivity.this, ConvertedActivity.class);
-                intent.putExtra("number", num);
-                intent.putExtra ("spinItem", item);
-                startActivity(intent);
+
+                float    num      = parseFloat(editView.getText().toString()); //The float
+                Spinner  spin     = (Spinner) findViewById(R.id.spinner);      //The Spinner object
+                String   item     = spin.getSelectedItem().toString();         //The spin item string
+
+                //Create the intent
+                Intent   intent   =  new Intent(MainActivity.this, ConvertedActivity.class);
+
+                //if(num)
+                intent.putExtra("number", num);     //This stores the inputted float in the intent
+                intent.putExtra ("spinItem", item); //This stores the spin item string in the intent
+
+                startActivity(intent); //Redirects to ConvertedActivity
             }
         });
     }

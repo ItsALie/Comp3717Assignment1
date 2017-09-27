@@ -4,9 +4,13 @@
     <string-array name="conversion_units">
         <item>Hectares to Acres</item>
         <item>Acres to Hectares</item>
-        <item>Hectares to Sqare Feet</item>
+        <item>Hectares to Square Feet</item>
         <item>Square Feet to Hectares</item>
         <item>Square Meters to Square Feet</item>
         <item>Square Feet to Square Meters</item>
     </string-array>
+    <string name="Hectares">Hectares</string>
+    <string name="Acres">Acres</string>
+    <string name="SquareFeet">Square Feet</string>
+    <string name="SquareMeter">Square Meter</string>
 </resources>
