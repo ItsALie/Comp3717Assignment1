@@ -13,4 +13,7 @@
     <string name="Acres">Acres</string>
     <string name="SquareFeet">Square Feet</string>
     <string name="SquareMeter">Square Meter</string>
+    <string name="convert">Convert</string>
+    <string name="back">Back</string>
+    <string name="not_available">Not Available</string>
 </resources>

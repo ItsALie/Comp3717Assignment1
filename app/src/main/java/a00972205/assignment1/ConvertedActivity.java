@@ -15,10 +15,13 @@ public class ConvertedActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_converted);
 
+        int      cIndex   = -1;
+        String[] convUnit = getResources().getStringArray(R.array.conversion_units);
         Intent   intent   = getIntent(); //The intent from MainActivity
         float    base     = intent.getFloatExtra("number", 0); //Stores the float from user input
         String   units    = intent.getStringExtra("spinItem"); //Stores the spin item string
-        String[] convUnit = getResources().getStringArray(R.array.conversion_units);
+
+
 
         EditText finalNum      = (EditText) findViewById(R.id.finalNum);      //The finalNum EditText item
         EditText orgNum        = (EditText) findViewById(R.id.originalNum);   //The orgNum EditText item
@@ -27,37 +30,47 @@ public class ConvertedActivity extends Activity {
 
         orgNum.setText("" + base);//Displays the original number inputted
 
-        //Sets the text in the EditText according to selected spinner item
-        switch(units) {
-            case "" :
+        //Finds the index of units from its original Strings array.
+        for(int i = 0; i < convUnit.length; i++) {
+            if (units.compareTo(convUnit[i]) == 0) {
+                cIndex = i;
+            }
+        }
+
+        //Sets the text in the EditText according
+        //to the index of the conversion units String array
+        switch(cIndex) {
+            case 0 :
                 finalNum.setText("" + (base * 2.47105));
                 originalUnit.setText(R.string.Hectares);
                 convertedUnit.setText(R.string.Acres);
                 break;
-            case "Acres to Hectares":
+            case 1:
                 finalNum.setText("" + (base * 0.404686));
                 originalUnit.setText(R.string.Acres);
                 convertedUnit.setText(R.string.Hectares);
                 break;
-            case "Hectares to Square Feet":
+            case 2:
                 finalNum.setText("" + (base * 107639));
                 originalUnit.setText(R.string.Hectares);
                 convertedUnit.setText(R.string.SquareFeet);
                 break;
-            case "Square Feet to Hectares":
+            case 3:
                 finalNum.setText("" + (base * .0000092903));
                 originalUnit.setText(R.string.SquareFeet);
                 convertedUnit.setText(R.string.Hectares);
                 break;
-            case "Square Meters to Square Feet":
+            case 4:
                 finalNum.setText(("" + base * 10.7639));
                 originalUnit.setText(R.string.SquareMeter);
                 convertedUnit.setText(R.string.SquareFeet);
                 break;
-            case "Square Feet to Square Meters":
+            case 5:
                 finalNum.setText(("" + base * 0.092903));
                 originalUnit.setText(R.string.SquareFeet);
                 convertedUnit.setText(R.string.SquareMeter);
+                break;
+            default:
                 break;
         }
 

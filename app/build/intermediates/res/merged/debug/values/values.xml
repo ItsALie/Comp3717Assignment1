@@ -452,6 +452,9 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">Assignment 1</string>
+    <string name="back">Back</string>
+    <string name="convert">Convert</string>
+    <string name="not_available">Not Available</string>
     <string name="search_menu_title">Search</string>
     <string name="select_conversion">Select conversion units</string>
     <string name="status_bar_notification_info_overflow">999+</string>

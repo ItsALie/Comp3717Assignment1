@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Assignment 1</string>
-    <string name="select_conversion">Deutchland</string>
+    <string name="app_name">Zuordnung 1</string>
+    <string name="select_conversion">Konvertierungseinheiten auswählen</string>
     <string-array name="conversion_units">
         <item>Hektar zu Acres</item>
         <item>Acres zu Hektar</item>
@@ -13,4 +13,7 @@
     <string name="Acres">Acres</string>
     <string name="SquareFeet">QuadratVersfuß</string>
     <string name="SquareMeter">Quadratmeter</string>
+    <string name="convert">Konvertieren</string>
+    <string name="back">Zurück</string>
+    <string name="not_available">Nicht verfügbar</string>
 </resources>
