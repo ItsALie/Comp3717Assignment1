@@ -18,6 +18,7 @@ public class ConvertedActivity extends Activity {
         Intent   intent   = getIntent(); //The intent from MainActivity
         float    base     = intent.getFloatExtra("number", 0); //Stores the float from user input
         String   units    = intent.getStringExtra("spinItem"); //Stores the spin item string
+        String[] convUnit = getResources().getStringArray(R.array.conversion_units);
 
         EditText finalNum      = (EditText) findViewById(R.id.finalNum);      //The finalNum EditText item
         EditText orgNum        = (EditText) findViewById(R.id.originalNum);   //The orgNum EditText item
@@ -28,7 +29,7 @@ public class ConvertedActivity extends Activity {
 
         //Sets the text in the EditText according to selected spinner item
         switch(units) {
-            case "Hectares to Acres":
+            case "" :
                 finalNum.setText("" + (base * 2.47105));
                 originalUnit.setText(R.string.Hectares);
                 convertedUnit.setText(R.string.Acres);

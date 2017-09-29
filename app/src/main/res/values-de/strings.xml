@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Assignment 1</string>
+    <string name="select_conversion">Deutchland</string>
+    <string-array name="conversion_units">
+        <item>Hektar zu Acres</item>
+        <item>Acres zu Hektar</item>
+        <item>Hektar zu QuadratVersfuß</item>
+        <item>QuadratVersfuß zu Hektar</item>
+        <item>Quadratmeter zu QuadratVersfuß</item>
+        <item>QuadratVersfuß zu Quadratmeter</item>
+    </string-array>
+    <string name="Hectares">Hektar</string>
+    <string name="Acres">Acres</string>
+    <string name="SquareFeet">QuadratVersfuß</string>
+    <string name="SquareMeter">Quadratmeter</string>
+</resources>

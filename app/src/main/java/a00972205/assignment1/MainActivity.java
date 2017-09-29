@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
                 //Create the intent
                 Intent   intent   =  new Intent(MainActivity.this, ConvertedActivity.class);
 
-                //if(num)
                 intent.putExtra("number", num);     //This stores the inputted float in the intent
                 intent.putExtra ("spinItem", item); //This stores the spin item string in the intent
 
